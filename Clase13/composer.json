@@ -1,0 +1,19 @@
+{
+    "name": "epiov/clase13",
+    "description": "Ejemplo Composer",
+    "type": "library",
+    "require": {
+        "nesbot/carbon": "3.x-dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8.5.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "epiovano",
+            "email": "emi.piovano@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
