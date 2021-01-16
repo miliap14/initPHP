@@ -1,0 +1,18 @@
+{
+    "autoload": {
+        //Files nos permite decir que archivos debemos agregar (helpers)
+        "files": [
+            "src/files1.php",
+            "src/file2.php"
+        ],
+        //Classmap las diferentes clases
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        //PSR-4 es nuestro namespace (a diferencia de psr-0 no debemos incluir toda la ruta.)
+        "psr-4": {
+            "Text\\": "src/"
+        }
+    }
+}
